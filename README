@@ -1,0 +1,2 @@
+1. Get package list by: apm list --installed --bare > packages.list
+2. Install from list file: apm install --packages-file packages.list

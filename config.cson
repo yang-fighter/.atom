@@ -1,0 +1,56 @@
+"*":
+  "atom-ide-ui":
+    hyperclick:
+      win32TriggerKeys: "altKey"
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "atom-gdb-debugger"
+      "ide-python"
+      "atom-debugger"
+      "atom-ide-debugger-native-gdb"
+      "build"
+    ]
+    telemetryConsent: "no"
+    uriHandlerRegistration: "always"
+    useProxySettingsWhenCallingApm: false
+  editor:
+    fontSize: 21
+    invisibles: {}
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "1f82cfa4-ea8e-4a4f-a973-c813c419caf4"
+  "file-header":
+    autoAddingHeaderOnSaving: false
+    dateTimeFormat: "MM-DD-YYYY HH:mm:ss"
+    email: "yyang@wtamu.edu"
+    numOfEmptyLinesAfterNewHeader: 1
+    realname: "Yong Yang"
+  "ide-fortran":
+    debug: true
+    displayVerWarning: false
+    lowercase_intrinsics: true
+    variable_hover: true
+  latex:
+    buildOnSave: true
+    opener: "pdf-view"
+    useDicy: true
+  "markdown-preview":
+    useGitHubStyle: true
+  "one-dark-ui":
+    fontSize: 14
+  welcome:
+    showOnStartup: false
+".fixed.fortran.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".fortran.free.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".fortran.modern.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true

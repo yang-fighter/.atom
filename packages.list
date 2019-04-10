@@ -1,0 +1,17 @@
+atom-debugger@0.1.6
+atom-gdb-debugger@0.2.2
+atom-html-preview@0.2.6
+atom-ide-debugger-native-gdb@0.7.3
+atom-ide-ui@0.13.0
+build@0.70.0
+build-make@0.13.0
+busy-signal@2.0.1
+file-header@1.13.9
+ide-fortran@0.4.0
+ide-python@1.4.1
+language-fortran@2.1.7
+language-latex@1.2.0
+last-cursor-position@0.9.3
+latex@0.50.2
+pdf-view@0.71.0
+
