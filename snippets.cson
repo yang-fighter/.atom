@@ -51,6 +51,9 @@
   'text it':
     'prefix': 'tit'
     'body': '\\\\textit{$1}$0'
+  'text it and bf':
+    'prefix': 'titbf'
+    'body':'\\\\textbf{\\\\textit{$1}}$0'
   'equation system':
     'prefix':'eqalign'
     'body': '\\\\begin{equation$1}\n\t\\\\begin{aligned}\n\t\t$0\n\t\\\\end{aligned}\n\\\\end{equation$1}'
@@ -119,7 +122,7 @@
     $0
     """
 
-'.text.tex.latex .meta.function.environment.list':    
+'.text.tex.latex .meta.function.environment.list':
   'item $$':
     'prefix': 'item'
     'body': '\\\\item ${1:\$$0\$}'
