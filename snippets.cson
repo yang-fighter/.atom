@@ -121,6 +121,9 @@
     \\\\end{equation$1}
     $0
     """
+  'task $$':
+    'prefix': 'task'
+    'body': '\\\\task ${1:\$$0\$}'
 
 '.text.tex.latex .meta.function.environment.list':
   'item $$':
