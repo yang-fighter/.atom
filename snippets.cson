@@ -126,3 +126,6 @@
   'item $$':
     'prefix': 'item'
     'body': '\\\\item ${1:\$$0\$}'
+  'task $$':
+    'prefix': 'task'
+    'body': '\\\\task ${1:\$$0\$}'
