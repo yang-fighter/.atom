@@ -64,7 +64,7 @@
       \\\\begin{aligned}
         a_{11}x_1+a_{12}x_2+\\\\cdots+a_{1n}x_n&=b1\\\\\\\\
         a_{21}x_1+a_{22}x_2+\\\\cdots+a_{2n}x_n&=b2\\\\\\\\
-        \\\\cdots\\\\\\\\
+        \\\\vdots\\\\\\\\
         a_{n1}x_1+a_{n2}x_2+\\\\cdots+a_{nn}x_n&=bn
       \\\\end{aligned}
     \\\\end{equation}
