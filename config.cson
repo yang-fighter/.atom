@@ -40,6 +40,8 @@
     useGitHubStyle: true
   "one-dark-ui":
     fontSize: 14
+  "pdf-view":
+    paneToUseInSynctex: "left"
   welcome:
     showOnStartup: false
 ".fixed.fortran.source":
