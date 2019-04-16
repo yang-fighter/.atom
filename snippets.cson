@@ -124,6 +124,12 @@
   'task $$':
     'prefix': 'task'
     'body': '\\\\task ${1:\$$0\$}'
+  'n x n':
+    'prefix': 'nxn'
+    'body': '\$n\\\\times n\$'
+  'Ax=b':
+    'prefix': 'ax=b'
+    'body': '\$A \\\\mathbf{x}=\\\\mathbf{b}\$'
 
 '.text.tex.latex .meta.function.environment.list':
   'item $$':
