@@ -130,6 +130,15 @@
   'Ax=b':
     'prefix': 'ax=b'
     'body': '\$A \\\\mathbf{x}=\\\\mathbf{b}\$'
+  'lim limits':
+    'prefix': 'lim'
+    'body': '\\\\lim\\\\limits_{${1:x}\\\\to ${2:0}} $0'
+  'fraction displaystyle':
+    'prefix': 'dfrac'
+    'body': '\\\\dfrac{$1}{$2}$0'
+  'square root':
+    'prefix': 'sqrt'
+    'body': '\\\\sqrt{$1}$0'
 
 '.text.tex.latex .meta.function.environment.list':
   'item $$':
