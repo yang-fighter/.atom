@@ -139,6 +139,9 @@
   'square root':
     'prefix': 'sqrt'
     'body': '\\\\sqrt{$1}$0'
+  'integral displaystyle':
+    'prefix': 'dint'
+    'body': '\\\\displaystyle\\\\int'
 
 '.text.tex.latex .meta.function.environment.list':
   'item $$':
