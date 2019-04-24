@@ -142,6 +142,9 @@
   'integral displaystyle':
     'prefix': 'dint'
     'body': '\\\\displaystyle\\\\int'
+  'sum displaystyle':
+    'prefix': 'dsum'
+    'body': '\\\\displaystyle\\\\sum_{${1:k=1}}^{${2:n}}$0'
 
 '.text.tex.latex .meta.function.environment.list':
   'item $$':
