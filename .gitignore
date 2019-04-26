@@ -4,3 +4,4 @@ compile*/
 packages/
 recovery/
 storage/
+.atom*
