@@ -54,9 +54,9 @@
   'text it':
     'prefix': 'tit'
     'body': '\\\\textit{$1}$0'
-  'text it and bf':
+  'text emphasize with boldface':
     'prefix': 'titbf'
-    'body':'\\\\textbf{\\\\textit{$1}}$0'
+    'body':'\\\\textbf{\\\\emph{$1}}$0'
   'equation system':
     'prefix':'eqalign'
     'body': '\\\\begin{equation$1}\n\t\\\\begin{aligned}\n\t\t$0\n\t\\\\end{aligned}\n\\\\end{equation$1}'
@@ -162,6 +162,9 @@
   'Rn':
     'prefix': 'rn'
     'body': '\$R^n\$'
+  '||v||':
+    'prefix': 'nv'
+    'body': '\\\\|\\\\mathbf{${1:v}}\\\\| $0'
 
 '.text.tex.latex .meta.function.environment.list':
   'item $$':
