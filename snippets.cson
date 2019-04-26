@@ -25,7 +25,7 @@
     'prefix': 'aa'
     'body': 'a_1,a_2,\\\\cdots,a_n'
   'b1,...,bn':
-    'prefix': 'bb'
+    'prefix': 'bbb'
     'body': 'b_1,b_2,\\\\cdots,b_n'
   'c1,...,cn':
     'prefix': 'cc'
@@ -36,6 +36,9 @@
   'e1,...,en':
     'prefix': 'ee'
     'body': 'e_1,e_2,\\\\cdots,e_n'
+  'v1,...,vn':
+    'prefix': 'vv'
+    'body': 'v_1,v_2,\\\\cdots,v_n'
   'x1,...,xn':
     'prefix': 'xx'
     'body': 'x_1,x_2,\\\\cdots,x_n'
@@ -145,6 +148,20 @@
   'sum displaystyle':
     'prefix': 'dsum'
     'body': '\\\\displaystyle\\\\sum_{${1:k=1}}^{${2:n}}$0'
+  'subfigure':
+    'prefix': 'subfigure'
+    'body': """
+    \\\\begin{subfigure}{0.${1:5}\\\\textwidth}
+      \\\\centering
+      ${4:\\\\includegraphics}
+      \\\\caption{$2}
+      \\\\label{$3}
+    \\\\end{subfigure}
+    $0
+    """
+  'Rn':
+    'prefix': 'rn'
+    'body': '\$R^n\$'
 
 '.text.tex.latex .meta.function.environment.list':
   'item $$':
