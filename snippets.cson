@@ -23,31 +23,40 @@
 '.text.tex.latex':
   'a1,...,an':
     'prefix': 'aa'
-    'body': 'a_1,a_2,\\\\cdots,a_n'
+    'body': 'a_1,a_2,\\\\dots,a_n'
   'b1,...,bn':
     'prefix': 'bbb'
-    'body': 'b_1,b_2,\\\\cdots,b_n'
+    'body': 'b_1,b_2,\\\\dots,b_n'
   'c1,...,cn':
     'prefix': 'cc'
-    'body': 'c_1,c_2,\\\\cdots,c_n'
+    'body': 'c_1,c_2,\\\\dots,c_n'
   'd1,...,dn':
     'prefix': 'dd'
-    'body': 'd_1,d_2,\\\\cdots,d_n'
+    'body': 'd_1,d_2,\\\\dots,d_n'
   'e1,...,en':
     'prefix': 'ee'
-    'body': 'e_1,e_2,\\\\cdots,e_n'
+    'body': 'e_1,e_2,\\\\dots,e_n'
   'v1,...,vn':
-    'prefix': 'vv'
-    'body': 'v_1,v_2,\\\\cdots,v_n'
+    'prefix': 'vvv'
+    'body': 'v_1,v_2,\\\\dots,v_n'
   'x1,...,xn':
     'prefix': 'xx'
-    'body': 'x_1,x_2,\\\\cdots,x_n'
+    'body': 'x_1,x_2,\\\\dots,x_n'
   'y1,...,yn':
     'prefix': 'yy'
-    'body': 'y_1,y_2,\\\\cdots,y_n'
+    'body': 'y_1,y_2,\\\\dots,y_n'
   'z1,...,zn':
     'prefix': 'zz'
-    'body': 'z_1,z_2,\\\\cdots,z_n'
+    'body': 'z_1,z_2,\\\\dots,z_n'
+  'v=(v1,v2,...,vn)':
+    'prefix': 'vv'
+    'body': '\$\\\\mathbf{v}=(v_1,v_2,\\\\dots,v_n)\$'
+  'u=(u1,u2,...,un)':
+    'prefix': 'vu'
+    'body': '\$\\\\mathbf{u}=(u_1,u_2,\\\\dots,u_n)\$'
+  'w=(w1,w2,...,wn)':
+    'prefix': 'vw'
+    'body': '\$\\\\mathbf{w}=(w_1,w_2,\\\\dots,w_n)\$'
   'text bf':
     'prefix': 'tbf'
     'body': '\\\\textbf{$1}$0'
@@ -161,7 +170,7 @@
     """
   'Rn':
     'prefix': 'rn'
-    'body': '\$R^n\$'
+    'body': '\$\\\\R^n\$'
   '||v||':
     'prefix': 'nv'
     'body': '\\\\|\\\\mathbf{${1:v}}\\\\| $0'
