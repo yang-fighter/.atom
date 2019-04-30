@@ -170,10 +170,13 @@
     """
   'Rn':
     'prefix': 'rn'
-    'body': '\$\\\\R^n\$'
+    'body': '\$\\\\R^${1:n}\$$0'
   '||v||':
     'prefix': 'nv'
-    'body': '\\\\|\\\\mathbf{${1:v}}\\\\| $0'
+    'body': '\\\\|\\\\mathbf{${1:v}}\\\\|$0'
+  'u.v':
+    'prefix': 'udv'
+    'body': '\\\\mathbf{u\\\\cdot v}'
 
 '.text.tex.latex .meta.function.environment.list':
   'item $$':
