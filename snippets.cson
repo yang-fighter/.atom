@@ -23,31 +23,7 @@
 '.text.tex.latex':
   'a1,...,an':
     'prefix': 'aa'
-    'body': 'a_1,a_2,\\\\dots,a_n'
-  'b1,...,bn':
-    'prefix': 'bbb'
-    'body': 'b_1,b_2,\\\\dots,b_n'
-  'c1,...,cn':
-    'prefix': 'cc'
-    'body': 'c_1,c_2,\\\\dots,c_n'
-  'd1,...,dn':
-    'prefix': 'dd'
-    'body': 'd_1,d_2,\\\\dots,d_n'
-  'e1,...,en':
-    'prefix': 'ee'
-    'body': 'e_1,e_2,\\\\dots,e_n'
-  'v1,...,vn':
-    'prefix': 'vvv'
-    'body': 'v_1,v_2,\\\\dots,v_n'
-  'x1,...,xn':
-    'prefix': 'xx'
-    'body': 'x_1,x_2,\\\\dots,x_n'
-  'y1,...,yn':
-    'prefix': 'yy'
-    'body': 'y_1,y_2,\\\\dots,y_n'
-  'z1,...,zn':
-    'prefix': 'zz'
-    'body': 'z_1,z_2,\\\\dots,z_n'
+    'body': '${1:a}_1,${1:a}_2,\\\\dots,${1:a}_n'
   'v=(v1,v2,...,vn)':
     'prefix': 'vv'
     'body': '\$\\\\mathbf{v}=(v_1,v_2,\\\\dots,v_n)\$'
