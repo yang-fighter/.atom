@@ -15,7 +15,7 @@
     uriHandlerRegistration: "always"
     useProxySettingsWhenCallingApm: false
   editor:
-    fontSize: 21
+    fontSize: 20
     invisibles: {}
     showIndentGuide: true
     softWrap: true
