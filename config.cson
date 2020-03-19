@@ -6,10 +6,10 @@
     closeDeletedFileTabs: true
     disabledPackages: [
       "atom-gdb-debugger"
-      "ide-python"
       "atom-debugger"
       "atom-ide-debugger-native-gdb"
       "build"
+      "ide-python"
     ]
     telemetryConsent: "no"
     uriHandlerRegistration: "always"
@@ -33,7 +33,6 @@
     lowercase_intrinsics: true
     variable_hover: true
   latex:
-    buildOnSave: true
     opener: "pdf-view"
     useDicy: true
   "markdown-preview":
